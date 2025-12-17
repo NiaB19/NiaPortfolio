@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nia's creative developer portfolio showcasing projects, skills, and professional experience">
+  <title>Nia B - Creative Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="nav-brand">
+        <a href="#hero" aria-label="Home">NiaB</a>
+      </div>
+      <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="section" aria-labelledby="hero-heading">
+      <div class="hero-content">
+        <h1 id="hero-heading">Hey, I'm Nia</h1>
+        <p class="hero-subtitle">Fullstack Developer </p>
+        <p class="hero-description">I'm passionate about design, storytelling, and building meaningful digital experiences that make a difference.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="hero-btn primary">View My Work</a>
+          <a href="#contact" class="hero-btn secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Scroll Down</span>
+        <div class="arrow-down"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Hello! I'm Nia, a creative developer with a passion for crafting digital experiences that are both beautiful and functional. With expertise in full-stack development and a keen eye for design, I bridge the gap between technical implementation and user experience.</p>
+            <!-- <p>My journey in tech is complemented by my love for martial arts, which has taught me discipline, perseverance, and the importance of continuous learning. Whether I'm debugging code or perfecting a Muay Thai technique, I approach challenges with the same dedication and strategic thinking.</p> -->
+            <p>I believe in creating accessible, responsive, and user-centered applications that solve real-world problems. Let's build something amazing together!</p>
+          </div>
+          <div class="about-image">
+                <img src="myphoto.jpg" alt="Nia B" class="profile-photo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading">Featured Projects</h2>
+        <p class="section-subtitle">A selection of my recent work and contributions</p>
+        
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image food-pantry-bg">
+              <div class="project-overlay">
+                <a href="https://github.com/Akbahn/Food_Pantry" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Food Pantry project on GitHub">
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Food Pantry Management System</h3>
+              <p>A comprehensive platform designed to streamline food pantry operations, inventory management, and community outreach. Built with focus on accessibility and ease of use.</p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Database</span>
+                <span class="tag">UI/UX</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image suspect-app-bg">
+              <div class="project-overlay">
+                <a href="https://github.com/Shameer-R/RamHacks2025" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Suspect Application project on GitHub">
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Suspect Application</h3>
+              <p>Developed during RamHacks 2025 hackathon. An innovative solution combining real-time data processing with intuitive user interface design to solve complex identification challenges.</p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">API Integration</span>
+                <span class="tag">Real-time</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image portfolio-bg">
+              <div class="project-overlay">
+                <a href="#hero" class="project-link" aria-label="View this portfolio project">
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Personal Portfolio</h3>
+              <p>This responsive portfolio website showcasing my work, skills, and professional journey. Built with semantic HTML, custom CSS animations, and JavaScript interactivity.</p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading">Skills & Expertise</h2>
+        <p class="section-subtitle">Technologies and tools I work with</p>
+        
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <ul class="skills-list" role="list">
+              <li>HTML5 / CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Responsive Design</li>
+              <li>UI/UX Design</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Backend & Database</h3>
+            <ul class="skills-list" role="list">
+              <li>Java</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>UNIX/Linux</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Professional Skills</h3>
+            <ul class="skills-list" role="list">
+              <li>Social Media Strategy</li>
+              <li>Content Creation</li>
+              <li>Team Collaboration</li>
+              <li>Problem Solving</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section" aria-labelledby="resume-heading">
+      <div class="container">
+        <h2 id="resume-heading">Experience & Education</h2>
+        
+        <div class="resume-content">
+          <article class="resume-item">
+            <div class="resume-header">
+              <h3>Student Developer</h3>
+              <span class="resume-date">2023 - Present</span>
+            </div>
+            <p class="resume-location">Current Institution</p>
+            <ul class="resume-details">
+              <li>Developing full-stack applications using modern web technologies</li>
+              <li>Collaborating on team projects and hackathons</li>
+              <li>Contributing to open-source initiatives</li>
+            </ul>
+          </article>
+
+          <article class="resume-item">
+            <div class="resume-header">
+              <h3>Bachelor's in Computer Programming and Information Systems</h3>
+              <span class="resume-date">Expected 2026</span>
+            </div>
+            <p class="resume-location">Farmingdale State College</p>
+            <ul class="resume-details">
+              <li>Focus on Software Engineering and User Experience Design</li>
+              <li>Active participant in coding clubs and technical workshops</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="resume-download">
+          <a href="Nia_Bardavelidze_Resume.pdf" class="download-btn" download aria-label="Download resume as PDF">
+            Download Full Resume (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section" aria-labelledby="hobbies-heading">
+      <div class="container">
+        <h2 id="hobbies-heading">Beyond The Code</h2>
+        <p class="section-subtitle">What drives me outside of development</p>
+        
+        <div class="hobbies-grid">
+          <div class="hobby-card">
+            <div class="hobby-icon" aria-hidden="true">🥊</div>
+            <h3>Martial Arts</h3>
+            <p>Practicing Muay Thai keeps me disciplined, focused, and physically fit. The mental fortitude gained from martial arts translates directly into problem-solving in development.</p>
+          </div>
+
+          <div class="hobby-card">
+            <div class="hobby-icon" aria-hidden="true">🎸</div>
+            <h3>Music</h3>
+            <p>Playing guitar allows me to express creativity in a different medium. Music theory and coding share surprising similarities in pattern recognition and structure.</p>
+          </div>
+
+          <div class="hobby-card">
+            <div class="hobby-icon" aria-hidden="true">🌲</div>
+            <h3>Nature</h3>
+            <p>Exploring the outdoors provides balance and perspective. Hiking and nature photography inspire my design aesthetic and remind me to appreciate simplicity.</p>
+          </div>
+
+          <div class="hobby-card">
+            <div class="hobby-icon" aria-hidden="true">🎤</div>
+            <h3>Karaoke</h3>
+            <p>Singing with friends is my favorite way to unwind. It's taught me confidence, performance skills, and the importance of not taking yourself too seriously.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Let's Connect</h2>
+        <p class="section-subtitle">Have a project in mind or just want to chat? Reach out!</p>
+        
+        <div class="contact-content">
+          <form class="contact-form" id="contactForm" aria-label="Contact form">
+            <div class="form-group">
+              <label for="name">Name <span aria-label="required">*</span></label>
+              <input type="text" id="name" name="name" required aria-required="true" placeholder="Your name">
+              <span class="error-message" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email <span aria-label="required">*</span></label>
+              <input type="email" id="email" name="email" required aria-required="true" placeholder="your.email@example.com">
+              <span class="error-message" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span aria-label="required">*</span></label>
+              <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Tell me about your project or inquiry..."></textarea>
+              <span class="error-message" role="alert"></span>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div class="form-status" role="status" aria-live="polite"></div>
+          </form>
+
+          <div class="contact-info">
+            <h3>Other Ways to Connect</h3>
+            <ul class="contact-links">
+              <li>
+                <a href="https://github.com/NiaB19" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+                  <span class="icon">📦</span> GitHub
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/niab/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+                  <span class="icon">💼</span> LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="niabardav@gmail.com" aria-label="Send me an email">
+                  <span class="icon">✉️</span> Email
+                </a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2024 Nia B. All rights reserved.</p>
+        <nav aria-label="Footer navigation">
+          <ul class="footer-links">
+            <li><a href="#hero">Back to Top</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="JS.js"></script>
+</body>
+</html>
